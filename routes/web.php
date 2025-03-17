@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PostController;
+
 use App\Http\Controllers\ProductController;
 
 Route::get('/', function (                                                   ) {

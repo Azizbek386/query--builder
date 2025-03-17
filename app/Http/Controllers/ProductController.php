@@ -26,6 +26,7 @@ class ProductController extends Controller
     {
         Product::create($request->validated());
         return redirect()->route('products.index');
+        
     }
 
     
